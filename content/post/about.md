@@ -10,7 +10,7 @@ description : About @tkitsunai
 
 This JSON is partial.
 
-```
+```java
 {
     "job": "Software Developer",
     "department/role": "Site Reliability Engineering",
