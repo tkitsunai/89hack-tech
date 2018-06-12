@@ -1,0 +1,19 @@
+baseurl = "https://89hack.tech/"
+languageCode = "ja"
+title = "89 Tech"
+theme = 'hestia-pure'
+
+[author]
+ author = 'tkitsunai'
+ profile = 'Software Engineer'
+ image = "images/tkitsunai_avatar.jpeg"
+
+[Params]
+ localeOgp = "ja"
+ description = "Read during your coffee break."
+ keywords = "Web,Programming,Architecture"
+ twitter = "tkitsunai"
+ github = "tkitsunai"
+ facebook = ""
+ favicon = "89tech_favicon.ico"
+ image = "images/eyecatch/job_programmer.png"

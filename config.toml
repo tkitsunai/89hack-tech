@@ -1,19 +1,60 @@
-baseurl = "https://89hack.tech/"
-languageCode = "ja"
-title = "89 Tech"
-theme = 'hestia-pure'
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "ja-JP"
+disqusShortname = ""
+paginate        = 10
+#SectionPagesMenu = "main"
 
-[author]
- author = 'tkitsunai'
- profile = 'Software Engineer'
- image = "images/tkitsunai_avatar.jpeg"
+[params]
+  title       = "89 Hack Tech"
+  subtitle    = "Read during your coffee break."
 
-[Params]
- localeOgp = "ja"
- description = "Read during your coffee break."
- keywords = "Web,Programming,Architecture"
- twitter = "tkitsunai"
- github = "tkitsunai"
- facebook = ""
- favicon = "89tech_favicon.ico"
- image = "images/eyecatch/job_programmer.png"
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = "https://blog.89hack.tech/index.xml"
+
+  twitterName = "tkitsunai"
+  # fbName = "tkitsunai"
+  githubName = "tkitsunai"
+
+  # logo = "hugo-logo.png"
+  orgName = "89 TECH"
+  orgWebsite = "https://blog.89hack.tech/"
+  orgDescription = "89 hack"
+
+  author = "tkitsunai"
+  authorAvatar = "images/tkitsunai_avatar.jpeg"
+  authorLocation = "Japan"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Software Engineer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Golang"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Blog"
+  url = "/categories/blog"
+  weight = 99
+
+[[menu.main]]
+  name = "ABOUT"
+  url = "/about-me"
+  weight = 95
