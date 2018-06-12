@@ -10,7 +10,7 @@ paginate        = 10
   subtitle    = "Read during your coffee break."
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "人生フルGC"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
@@ -28,7 +28,7 @@ paginate        = 10
   author = "tkitsunai"
   authorAvatar = "images/tkitsunai_avatar.jpeg"
   authorLocation = "Japan"
-  authorWebsite = "https://eueung.github.io"
+  authorWebsite = "https://github.com/tkitsunai"
   authorDescription = "Software Engineer"
 
   pageNotFoundTitle = "404 - Page not found"
