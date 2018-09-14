@@ -12,4 +12,4 @@ deploy:
 	firebase deploy
 
 createpost:
-	hugo new articles/${DATE}.md
+	hugo new post/${DATE}.md
